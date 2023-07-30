@@ -1,7 +1,3 @@
-# waitForElements
-
-## A JavaScript library to wait for specific elements to load in the DOM.
-
 ### Introduction
 
 This small library is used to wait for elements until they're found in the DOM using the [MutationObserver](https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver) API.
@@ -24,7 +20,7 @@ You can use it in your userscript or project directly through [Github](https://r
 
 Call the function, then pass the element you're looking for. It's done using the [`document.querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) method.
 
-You're being returned the DOM element reference to do anything with element.
+You're being returned the DOM element reference to do anything with the element.
 
 In case of success, the element is found, you can do anything within the `.then()` method.
 
@@ -34,7 +30,7 @@ waitForElm(".some-class").then((elm) => {
 });
 ```
 
-Also, you can use it with an [async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function).
+Also, you can use it with an [async/await function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function).
 
 ```javascript
 const elm = await waitForElm('.some-class');
