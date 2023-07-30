@@ -38,11 +38,11 @@ const elm = await waitForElm('.some-class');
 
 ### Issues
 
-You can report any issues or any unexpected behaviour in the [issues](https://github.com/lightningmcqueen80/waitForElements/issues) tab.
+You can report any issues or any unexpected behavior in the [issues](https://github.com/lightningmcqueen80/waitForElements/issues) tab.
 
 ### Contributing
 
-Contributing is always welcome, you can create a pull request to modify or extend the library, submit them in the [Pull requests](https://github.com/lightningmcqueen80/waitForElements/issues) tab.
+Contributing is always welcome, you can create a pull request to modify or extend the library, then submit it in the [Pull requests](https://github.com/lightningmcqueen80/waitForElements/issues) tab.
 
 ### License
 
